@@ -1,10 +1,7 @@
 import React from "react";
-
-//______________________________________________________________________________
-//______________________________________________________________________________
-//IMPORTACIONES DE LOS COMPONENTES
 import ContactoDirecto from "../components/contactoDirecto";
 import CarruselPricipal from "../components/carrusel";
+import FormContacto from "../components/compContacto/formContacto";
 
 
 const Inicio = () => {
@@ -13,6 +10,8 @@ const Inicio = () => {
             <ContactoDirecto />
 
             <CarruselPricipal />
+
+            <FormContacto />
         </>
     )
 }
